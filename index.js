@@ -1,4 +1,4 @@
-import { OPCUAServer, nodesets, Variant, DataType } from "node-opcua";
+const { OPCUAServer, nodesets, Variant, DataType } = require("node-opcua");
 
 function constructAddressSpace(server) {
   const addressSpace = server.engine.addressSpace;
