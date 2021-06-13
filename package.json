@@ -1,0 +1,21 @@
+{
+  "name": "node-opcua-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ilia Reshetov",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "node-opcua": "2.44.0"
+  }
+}
